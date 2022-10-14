@@ -1,0 +1,64 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 184, 170);
+    margin: 10rem 10rem;
+    border-radius: 20px;
+}
+
+.contact-left .contact-heading {
+    margin-right: 10rem;
+    font-size: 80px;
+}
+
+.row-content1 {
+    margin: 5rem 0;
+    background-color: rgb(189, 166, 134);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 2rem;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.text span {
+    font-size: 30px;
+}
+
+.contact-wrap {
+    background-color: rgb(189, 166, 134);
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 10rem;
+
+}
+
+.contact-wrap {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.form-group input,
+.form-group textarea {
+    font-size: 25px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-group .btn-primary {
+    background-color: rgb(27, 244, 171);
+    padding: 1rem 1rem;
+
+}
+
+.form-group .btn-primary:hover {
+    cursor: pointer;
+    background-color: rgb(79, 202, 161);
+}

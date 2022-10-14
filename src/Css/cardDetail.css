@@ -1,0 +1,28 @@
+.product-card {
+    display: flex;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+.product-tumb {
+    width: 70rem;
+}
+
+.product-details .product-title {
+    margin-top: 0;
+    font-size: 60px;
+}
+
+.product-details .product-year {
+    font-size: 40px;
+}
+
+.product-details .product-nation {
+    font-size: 40px;
+}
+
+.product-details .product-info {
+    font-size: 20px;
+}

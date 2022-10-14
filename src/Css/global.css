@@ -1,0 +1,149 @@
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #fabd72;
+  padding: 40px 0;
+  border-bottom: 2px solid #fabd72;
+}
+
+/* .container {
+  margin: 5rem 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+  justify-items: center;
+} */
+
+/* .column {
+  border-radius: 10px;
+  border: 1px solid bisque;
+  background-color: #ffe4c4;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+  width: 370px;
+  height: 630px;
+  content: overflow;
+} */
+
+.column .textt {
+  color: black;
+}
+
+.image-card {
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.image-card img {
+  width: 100%;
+  height: 450px;
+  transition: 0.5s;
+
+}
+
+.image-card img:hover {
+  transform: scale(1.2);
+}
+
+.card .button1 {
+  border: none;
+  background-color: black;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 8px 0;
+  border-radius: 5px;
+}
+
+.card .button1:hover {
+  cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fabd72;
+  font-size: 20px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+  height: 550px;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #c2b506;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  color: #333;
+}
+
+.footer {
+  border-top: 2px solid #fabd72;
+  text-align: center;
+  padding: 20px 0;
+  color: #fabd72;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+}
