@@ -7,7 +7,7 @@ export default function About() {
     const { theme } = useContext(ThemeContext)
     return (
         <div>
-            <Container className='wrapper'>
+            <Container className='wrapper text'>
                 <div style={{ backgroundColor: theme.backgroundColor, color: theme.color, zIndex: "1000" }}>
                     <Card
                         style={{ backgroundColor: theme.backgroundColor, color: theme.color, zIndex: "1000" }}
@@ -15,6 +15,7 @@ export default function About() {
                         <Collapsible
                             accordion
                             popout
+                            style={{ fontSize: "2rem" }}
                         >
                             <CollapsibleItem
                                 expanded={false}

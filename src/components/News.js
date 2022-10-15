@@ -9,7 +9,7 @@ export default function News() {
     const { theme } = useContext(ThemeContext)
 
     return (
-        <div>
+        <div className='wrapper'>
 
             <Tabs
                 className="tab-demo z-depth-1"

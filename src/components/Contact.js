@@ -9,7 +9,7 @@ export default function Contact() {
     }
 
     return (
-        <Container>
+        <Container className='wrapper'>
             <h3>Contact us</h3>
             <form onSubmit={handleSubmit}>
                 <TextInput id="TextInput-38" label="Your Name" />
